@@ -6,7 +6,7 @@ import headerImg from "../../assets/img/header-img.svg";
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "Ui/Ul Designer"];
+  const toRotate = ["Web Разработчик", "Web Дизайнер", "Ui/Ul Дизайнер"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -49,19 +49,18 @@ const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcom to my Portfolio</span>
+            <span className="tagline">Познакомьтесь с моим Портфолио</span>
             <h1>
-              {`Hi I'm webdecoded `}
+              {`Привет, я Никита `}<br/>
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Для вас или вашей компании я создам удобный и красивый для пользователей вебсайт,
+            который будет обладать необходимым функционалом. Он позволит заинтересовать и привлечь людей,<br/>
+            а также выделить и добиться положительного впечатления. 
             </p>
             <button onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle sice={25} />
+              Давайте сотрудничать! <ArrowRightCircle sice={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>

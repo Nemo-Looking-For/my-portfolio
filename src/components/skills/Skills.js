@@ -34,11 +34,11 @@ const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
+              <h2>Навыки</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Создаю удобные и яркие интерфесы используя<br/>
+                Figma, HTML, JavaScript, React, TypeScript, MongoDB, GitHub.<br/>
+                Изучаю web-разработку около 1 года, имею опыт коммерческой разработки 3 месяца.<br/>
               </p>
               <Carousel
                 responsive={responsive}
@@ -47,21 +47,26 @@ const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>Web Разработчик</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>Web Дизайнер</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Logo Designer</h5>
+                  <h5>Logo Дизайнер</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>Проектирование интерфейсов</h5>
                 </div>
               </Carousel>
+                <p>
+                    Моими задачами являются в первую очередь в развитие собственных навыков
+                    работы<br/> с современными технологиями Web-разработки и получение опыта
+                    во время разработки и работы с компаниями.
+                  </p>
             </div>
           </Col>
         </Row>

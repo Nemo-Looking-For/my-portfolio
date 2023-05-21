@@ -46,7 +46,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              Home
+              Главная
             </Nav.Link>
             <Nav.Link
               href="#skills"
@@ -55,7 +55,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              Skills
+              Навыки
             </Nav.Link>
             <Nav.Link
               href="#projects"
@@ -64,7 +64,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              Projects
+              Проекты
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
@@ -80,7 +80,7 @@ const NavBar = () => {
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's Connect!</span>
+              <span>Давайте сотрудничать!</span>
             </button>
           </span>
         </Navbar.Collapse>

@@ -44,12 +44,9 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
+            <h2>Проекты</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Вот примеры некоторых проектов которые были созданы мной.
             </p>
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -76,8 +73,8 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Loren Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Примеры проектов</Tab.Pane>
+                <Tab.Pane eventKey="third">Примеры проектов</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
